@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap");
+body {
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+
+.temperature {
+  text-align: center;
+  font-size: 50px;
+  font: bold;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.col-6 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  line-height: 60px;
+}
+
+.input_search {
+  outline: none;
+  border: 0;
+  background: black;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 300px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.forecast-title {
+  color: black;
+  text-align: center;
+  font: bold;
+  font-size: 40px;
+}
+.forecast-day .temp {
+  color: white;
+  width: auto;
+}
+
+.todays-weather {
+  color: white;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  text-align: center;
+  border: 0;
+  font-size: 30px;
+}
+
+.search-form {
+  padding: 40px;
+}
+
+.units {
+  position: relative;
+}

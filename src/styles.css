@@ -79,3 +79,8 @@ ul {
 .units {
   position: relative;
 }
+
+.footnote {
+    color: black;
+    font-size: 15px;
+}

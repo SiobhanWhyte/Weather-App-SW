@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap");
 body {
-  margin-top: 10px;
+  margin-top: 20px;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   font-family: "Raleway", sans-serif;
 }
@@ -8,77 +8,84 @@ body {
 h1 {
   font-size: 50px;
   text-align: center;
-  display: block;
   margin: 0 auto;
   font-weight: bold;
+  display: block;
 }
+
+h2 {
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 ul {
-  list-style: none;
-  color: white;
-  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  color:white;
+  display: inline;
 }
 
-.temperature {
+p{
   text-align: center;
   font-size: 50px;
-  font: bold;
+}
+
+#header {
+color: white;
+text-align: center;
+box-sizing: unset;
+display: inline;
+line-height: 150px;
+}
+
+#main {
   color: white;
+  text-align: center;
+  line-height: 50px;
   display: block;
-  margin: 0 auto;
-  position: relative;
 }
 
-.col-6 {
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  line-height: 60px;
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px 40px;
 }
 
-.input_search {
-  outline: none;
-  border: 0;
-  background: black;
-  border-radius: 50px;
-  padding: 15px 20px;
-  width: 300px;
-  height: 50px;
-  color: rgb(0, 0, 0);
-}
-
-.forecast-title {
-  color: black;
-  text-align: center;
-  font: bold;
-  font-size: 40px;
-}
-.forecast-day .temp {
-  color: white;
-  width: auto;
-}
-
-.todays-weather {
-  color: white;
-  display: block;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.col {
-  text-align: center;
-  border: 0;
-  font-size: 30px;
+.weather-app {
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #9ab3f5;
 }
 
 .search-form {
-  padding: 40px;
+  padding: 60px;
+}
+
+
+.temperature {
+  padding-right: -200px;
+  font-weight: 500;
+  line-height: 100px;
+  font-size: 60px;
+  font: bold;
+  color: white;
+  margin: 0 auto;
 }
 
 .units {
-  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  list-style-type: none;
 }
+
+
+
 
 .footnote {
     color: black;

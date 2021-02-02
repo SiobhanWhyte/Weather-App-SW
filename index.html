@@ -12,8 +12,8 @@
     <title>WeatherApp</title>
 </head>
 <body>
-  <div class="container">
-    <div class="container-header">
+  <div class="weather-app-wrapper">
+  <div class="weather-app">
         <form class="search-form" id=search-form >
             <div class="row">
                 <div class="col-6">
@@ -36,71 +36,37 @@
         </form>          
      </div>
     </br> 
-    <div class="row">
-        <div class="col-6">
+      
+          <div id=header>
             <h1 id=city> Dublin </h1>
-            <ul>
-                <li id="date"></li>
-                <li id="description">Sunny  🌤️ </li>
-            </ul>
+            <h2 id="date"> </h2>
+               
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-4">
-            <div class="float-left">
+          <div id=main>
             <span class="temperature" id="temperature">19</span> 
 
             <span class="units">
                 <a href="#" id="celsius-link">°C</a> |
                 <a href="#" id="fahrenheit-link">°F</a>
             </span>
+            <p id="description">Sunny  🌤️ </p>
             </div>
             
-        </div>
-        <div class="col-4">
+      
             <ul>
                 <li id="humidity">Humidity: 60 %</li>
                 <li id="wind">Wind: 20 km/h</li>
             </ul>
         </div>
-      <hr>
-      <p class="forecast-title">Weekly Forecast</p>
-      <br>
-      </br>
-    </br> 
-      <div class="forecast-day">
-      <div class="row">
-        <div class="col">Monday</div>
-        <div class="col">Tuesday</div>
-        <div class="col">Wednesday</div>
-        <div class="col">Thursday</div>
-        <div class="col">Friday</div>
-      </div>
-      </div>
-     <div class="temp">
-       <div class="row">
-         <div class="col">5°</div>
-         <div class="col">13°</div>
-         <div class="col">12°</div>
-         <div class="col">9°</div>
-         <div class="col">8°</div>
-       </div>
      </div>
-     <div class="weather-icon">
-       <div class="row">
-         <div class="col">🌤️</div>
-         <div class="col">🌧️</div>
-         <div class="col">🌦️</div>
-         <div class="col">🌧️</div>
-         <div class="col">⛅</div>
-       </div>
      </div>
-    </div>
-    <p class="footnote"><a href="https://github.com/SiobhanWhyte/Weather-App-SW">Open source code</a>, by Siobhan Whyte
-    </p>
+   
   </div>
-    
+</div>
+</div>
+<p class="footnote"><a href="https://github.com/SiobhanWhyte/Weather-App-SW">Open source code</a>, by Siobhan Whyte
+</p>
      </div>
      <script src="src/script.js">
      </script>
